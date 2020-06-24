@@ -1,0 +1,32 @@
+The programs are made in python using pycharm
+
+Packages used are 
+operator
+and pygame
+
+A* and Dijkstra for point robot
+
+First you need to enter the grid size/resolution- since it does not consist of any marks so i request you to keep it to 1
+Then the starting coordinates separated by commas
+Then enter the goal coordinates separated by commas
+
+The output window will show the starting point but not the goal point
+After the goal is reached(is possible) the path will be highlited in red colour
+*** There is a problem with the pycharm window, if the goal point is very near to the source, you may have to click the window manually,
+incase if it does not pop up automatically, though there is a delay of 10000 ms so it will be enough to see the path.
+
+
+A* and Dijkstra for rigid bot
+
+First you need to enter the grid size/resolution- since it does not consist of any marks so i request you to keep it to 1
+Then enter the robot diameter(in mm)
+Then enter the clearence(in mm)
+Then the starting coordinates separated by commas
+Then enter the goal coordinates separated by commas
+
+The generated mab and the boundary is made using Minkowsky sum and half planes and the whole obstacles are shown in black.
+The output window does not show the starting and the goal point.
+Since this program is intended for rigid robot so i request you to give atleast either of robot diameter or clearance.
+After the goal is reached(is possible) the path will be highlited in red colour
+*** There is a problem with the pycharm window, if the goal point is very near to the source, you may have to click the window manually,
+incase if it does not pop up automatically, though there is a delay of 10000 ms so it will be enough to see the path.
